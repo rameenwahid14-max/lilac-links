@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f1f8;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #e6d5f7, #f7f1f8);
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #6a3d7c;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.header button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #6a3d7c;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* NOTE */
+.note {
+    text-align: center;
+    margin: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #6a3d7c;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    width: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    margin-top: 40px;
+}
