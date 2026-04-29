@@ -90,3 +90,9 @@ footer {
     background: #eee;
     margin-top: 40px;
 }
+.logo-img {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
